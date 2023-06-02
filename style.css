@@ -1,0 +1,17 @@
+body{/*se llama a la clase de estilo de letra google front, y el color de fono de "body"*/
+    font-family: 'DM Sans', sans-serif;
+    background-color:   #f5f5f5;
+}
+.tabla{/*se crea una grilla con las tablas ingresadas, con altura automatica,justificado central, y un margen de 10pixeles, ademas de un color blanco*/
+    display: grid;
+    justify-content: center;
+    height: auto;
+    margin: 10px;
+    background-color: #ffffff;
+}
+footer{/*cambio de color de fondo del pie de página*/
+    background-color:  #c9d2d0;
+}
+.foot-color{ /*cambia el color del texto de pie de página, llamando a esta clase*/
+    color: #31231e;
+}
